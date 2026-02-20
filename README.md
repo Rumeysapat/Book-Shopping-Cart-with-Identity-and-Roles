@@ -89,16 +89,7 @@ Password: Admin@123
 
 ## Proje Ekran Görüntüleri
 
-![Ekran1](https://github.com/user-attachments/assets/ac61c4b4-7fbc-461f-89c6-d78d4fdd90e0)
-
-![Ekran2](https://github.com/user-attachments/assets/86f0eee8-5531-4d73-84b4-4f109493d4d3)
-
-![Ekran3](https://github.com/user-attachments/assets/5b9f759c-cb40-4270-9efb-8b5172058bff)
-
-![Ekran4]("https://github.com/user-attachments/assets/8209e25f-fa57-4556-ba69-ef0fe9f99868")
-
-![Ekran5]("https://github.com/user-attachments/assets/1b8e9a70-3d15-44c5-ade5-8bc9a9e3ef78" )
-
+<img width="700" height="300" alt="Ekran Resmi 2026-02-20 11 20 51" src="https://github.com/user-attachments/assets/5bf5cf6d-45ec-4baa-ba87-793249cd723d" />
 
 
 
