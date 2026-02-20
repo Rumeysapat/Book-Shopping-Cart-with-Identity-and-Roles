@@ -1,0 +1,97 @@
+# 📚 ASP.NET Core MVC Book Shopping Cart
+
+Bu proje, **ASP.NET Core MVC** kullanılarak geliştirilmiş bir **kitap alışveriş sepeti uygulamasıdır**.  
+Uygulama; kullanıcı yönetimi, rol bazlı yetkilendirme ve temel e-ticaret senaryolarını kapsar.
+
+---
+
+## 🚀 Özellikler
+
+- 📖 Kitap listeleme ve detay sayfaları
+- 🛒 Alışveriş sepeti sistemi
+- 👤 ASP.NET Core Identity ile kullanıcı yönetimi
+- 🔐 Rol bazlı yetkilendirme (Admin / User)
+- 🧑‍💼 Admin paneli üzerinden CRUD işlemleri
+- ✅ Entity Framework Core ile veritabanı işlemleri
+- 🗄️ SQL Server & SQLite desteği
+- 🎨 Razor Views + Bootstrap
+
+---
+
+## 🛠️ Kullanılan Teknolojiler
+
+- **ASP.NET Core MVC**
+- **Entity Framework Core**
+- **ASP.NET Core Identity**
+- **SQL Server / SQLite**
+- **Razor Pages**
+- **Bootstrap**
+- **Fluent Validation (Custom Validators)**
+
+---
+
+
+---
+
+## 🔐 Varsayılan Roller & Admin Kullanıcı
+
+Uygulama ilk çalıştırıldığında aşağıdaki roller otomatik oluşturulur:
+
+- **Admin**
+- **User**
+
+### 👑 Admin Kullanıcısı
+```txt
+Email    : admin@gmail.com
+Password : Admin@123
+Role     : Admin
+
+
+
+🚀 Projeyi Çalıştırma Adımları
+1. Repoyu klonla
+git clone https://github.com/KULLANICI_ADI/BookShoppingCard.git
+cd BookShoppingCardUI
+
+2. Gerekli paketleri yükle
+dotnet restore
+
+3. Veritabanını oluştur
+
+Projede Entity Framework kullanıldığı için migration’ları çalıştır:
+
+dotnet ef database update
+
+4. (Opsiyonel) Connection string ayarla
+
+Eğer SQL Server kullanacaksan, appsettings.json dosyasını düzenle:
+
+"MsSqlConnection": "Server=localhost,1433;Database=booksDb;User Id=sa;Password=ŞİFREN;"
+
+
+SQLite kullanıyorsan ekstra ayar yapmana gerek yok.
+
+5. Projeyi çalıştır
+dotnet run
+
+
+Tarayıcıda aç:
+
+https://localhost:5001
+
+6. Admin girişi
+
+Uygulama ilk çalıştığında otomatik olarak admin kullanıcı oluşturulur:
+
+Email: admin@gmail.com
+Password: Admin@123
+
+
+Proje Ekran Görüntüleri
+<img width="350" height="125" alt="Ekran Resmi 2026-02-20 11 19 26" src="https://github.com/user-attachments/assets/ac61c4b4-7fbc-461f-89c6-d78d4fdd90e0" />
+<img width="350" height="125" alt="Ekran Resmi 2026-02-20 11 20 51" src="https://github.com/user-attachments/assets/86f0eee8-5531-4d73-84b4-4f109493d4d3" />
+<img width="350" height="125" alt="Ekran Resmi 2026-02-20 11 21 48" src="https://github.com/user-attachments/assets/5b9f759c-cb40-4270-9efb-8b5172058bff" />
+<img width="350" height="125" alt="Ekran Resmi 2026-02-20 11 21 44" src="https://github.com/user-attachments/assets/8209e25f-fa57-4556-ba69-ef0fe9f99868" />
+<img width="350" height="125" alt="Ekran Resmi 2026-02-20 11 21 37" src="https://github.com/user-attachments/assets/1b8e9a70-3d15-44c5-ade5-8bc9a9e3ef78" />
+
+
