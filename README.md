@@ -89,7 +89,9 @@ Password: Admin@123
 
 ## Proje Ekran Görüntüleri
 
-<img width="700" height="300" alt="Ekran Resmi 2026-02-20 11 20 51" src="https://github.com/user-attachments/assets/5bf5cf6d-45ec-4baa-ba87-793249cd723d" />
+![Görüntü1](https://raw.githubusercontent.com/Rumeysapat/Book-Shopping-Cart-with-Identity-and-Roles/master/wwwroot/images/Screen1.png)
+
+
 
 
 
